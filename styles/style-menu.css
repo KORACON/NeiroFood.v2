@@ -1,0 +1,743 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(/fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(/fonts/Montserrat-ExtraBold.ttf);
+}
+
+.up-navig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.up-navig > a {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: 5px;
+    font-family: Montserrat-ExtraBold;
+}
+
+.up-navig > a:hover {
+    border-bottom: 2px solid rgb(252, 206, 4);
+}
+
+.up-navig > span {
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    margin-left: auto;
+    font-family: Montserrat-ExtraBold;
+}
+
+.nav-center {
+    background-image: url('/images/image-7.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.text1 {
+    font-size: 82px;
+    color: rgb(252, 206, 4);
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 17.5%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-family: Montserrat-Black;
+}
+
+.text2 {
+    font-size: 102px;
+    color: white;
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 23.05%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-family: Montserrat-Black;
+}
+
+.text3 {
+    font-size: 85px;
+    color: white;
+    margin-left: 400px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 24.04%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-family: Montserrat-Black;
+}
+
+.navig-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.navig-panel>a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.navig-panel > a:hover {
+    border-bottom: 2px solid rgb(252, 206, 4);
+}
+
+.vkysn-cont {
+    padding-top: 300px;
+    padding-bottom: 700px;
+    background-color: black;
+    display: block;
+}
+
+.vkysn1 {
+    color: rgb(252, 206, 4);
+    font-size: 40px;
+    margin-left: 550px;
+    margin-right: 350px;
+    display: inline-block;
+    padding-bottom: 50px;
+    font-family: Montserrat-Black;
+}
+
+.vkysn2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 550px;
+    margin-right: 550px;
+    display: inline-block;
+    text-align: justify;
+    font-family: Montserrat-ExtraBold;
+}
+
+.img-banner {
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+
+/* Бургеры */
+
+.burger-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1800px;
+}
+
+.burger-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.burger-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger-card>p {
+    height: auto;
+}
+
+
+.name-burger {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-burger {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-burger>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-burger {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-burger {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+/* Комбо */
+
+.kombo-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.kombo-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.kombo-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-kombo {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-kobmo {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-kombo>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-kombo {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-kombo {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+/* Десерты */
+
+.desert-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.desert-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.desert-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-desert {
+    margin-left: -10px;
+    width: 320px;
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-desert {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-desert>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-desert {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-desert {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+/* Напитки */
+
+.drink-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.drink-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.drink-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-drink {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-drink {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-drink>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    height: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-drink {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-drink {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+/* Салаты */
+
+.salat-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.salat-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.salat-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-salat {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-salat {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-salat>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-salat {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-salat {
+    font-family: Montserrat-ExtraBold;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+
+
+/* Соусы */
+
+.souse-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.souse-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.souse-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-souse {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-souse {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-souse>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-souse {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-souse {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+.vkysn-cont {
+    padding-top: 300px;
+    padding-bottom: 700px;
+    background-color: black;
+    display: block;
+}
+
+.vkysn1 {
+    color: rgb(252, 206, 4);
+    font-size: 40px;
+    margin-left: 550px;
+    margin-right: 350px;
+    display: inline-block;
+    padding-bottom: 50px;
+    font-family: Montserrat-Black;
+}
+
+.vkysn2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 550px;
+    margin-right: 550px;
+    display: inline-block;
+    text-align: justify;
+    font-family: Montserrat-ExtraBold;
+}
+
+.img-banner {
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .up-navig {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .up-navig > a {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    .up-navig > span {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .up-navig {
+        padding: 10px;
+    }
+
+    .up-navig > a {
+        font-size: 16px;
+    }
+
+    .up-navig > span {
+        font-size: 18px;
+    }
+}
+
