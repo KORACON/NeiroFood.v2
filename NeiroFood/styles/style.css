@@ -7,12 +7,12 @@ body {
 
 @font-face {
     font-family: Montserrat-Bold;
-    src: url(/fonts/Montserrat-Bold.ttf);
+    src: url(/NeiroFood/fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
     font-family: Montserrat-ExtraBold;
-    src: url(/fonts/Montserrat-ExtraBold.ttf);
+    src: url(/NeiroFood/fonts/Montserrat-ExtraBold.ttf);
 }
 
 * {
@@ -26,7 +26,7 @@ body {
 }
 
 .nav-center {
-    background-image: url('/images/BackGroundIndex.jpg');
+    background-image: url('/NeiroFood/images/BackGroundIndex.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
